@@ -1,0 +1,23 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script src="showPass.js"></script>
+
+<script>
+$(document).ready(function() {
+
+
+
+$('#pass').showPass('.show_pass');
+$('.hidden_pass').showPass('.show_mulitply_pass');
+
+});
+
+</script>
+<input type="password" id="pass" name="pass" value="test">
+
+<button class="show_pass">Show Password</button>
+
+<input type="password" id="pass" class="hidden_pass" name="pass" value="test">
+<input type="password" id="pass" class="hidden_pass" name="pass" value="test">
+<input type="password" id="pass" class="hidden_pass" name="pass" value="test">
+<input type="password" id="pass" class="hidden_pass" name="pass" value="test">
+<button class="show_mulitply_pass">Show Multiply Pass</button>
