@@ -1,4 +1,4 @@
-# showPass
+# showPass.js - jQuery plugin
 Prosty plugin, który pozwala na pokazywanie hasła w inpucie password.
 
 <h4>Instrukcja</h4>
